@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --corprimaria: #BDBABB;
+    --corsegundaria: #949192;
+    --corterciaria: #6B6869;
+}
+
+body{
+    background: var(--corprimaria);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho img{
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+.container__input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container__input .input{
+    width: 400px;
+    height: 330px;
+}
+
+#input_texto{
+    width: 345px;
+    height: 330px;
+    font-size: 32px;
+    color: var(--corterciaria);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;    
+}
+
+#output{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 32px;
+    width: 350px;
+    height: 400px;
+    margin-right: 10%;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 21px;
+    color: var(--corterciaria);    
+}
+
+#output span{
+    font-size: 15px;
+    text-align: center;
+        
+}
+
+#output img{
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    margin-top: 1%;
+    padding: 20%;
+    
+}
+
+.container_buttons button{
+    border: 2px solid var(--corterciaria);
+    border-radius: 24px;
+    text-decoration: none;
+    color: black;
+    width: 328px;
+    height: 67px;
+    margin-left: 4%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button_copiar{
+    border: 2px solid var(--corterciaria);
+    border-radius: 24px;
+    text-decoration: none;
+    color: black;
+    width: 328px;
+    height: 67px;
+    margin-bottom: 4%;
+    margin-left: 3%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.container_buttons button:hover{
+    border: 4px solid var(--corsegundaria);
+    transition: 0.5s all;   
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    background: var(--corsegundaria);
+    color: black;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

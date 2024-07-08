@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main class="main__container">
+        <header class="cabecalho">
+            <img src="assets/labirinto.png" alt="logo dinossauro">            
+        </header> 
+
+    <div class="container__input">
+        <div class="input">
+            <textarea id="input_texto" placeholder="Digite seu texto"></textarea>
+            <p>(&#10008;)apenas letras minúsculas e sem acento</p>
+        </div>
+
+    <div id="output">
+        <img src="assets/labirinto.png" alt="logo labirinto">
+        <h2>Sua mensagem aparecerá aqui!</h2>
+        <span>Digite um texto que deseja criptografar ou descriptografar</span>
+    </div>   
+    </div>
+
+    <div class="buttons">
+        <div class="container_buttons">
+            <button onclick="criptografar()" class="button_criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="button_descriptografar">Descriptografar</button>
+        </div>
+    </div>
+    
+    </main>
+    <footer class="footer">
+        Desenvolvido por André Rodrigues - 2024
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
